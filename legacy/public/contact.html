@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakt</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
     <script src="./script.js"></script>
+    <script type="module" crossorigin src="/assets/index-40eeb533.js"></script>
   </head>
   <body>
     <nav>
@@ -17,12 +22,18 @@
       <a href="/contact">Kontakt</a>
     </nav>
     <main>
-      <h1>Skontaktuj się z nami</h1>
-      <form>
-        <input type="email" placeholder="twój@email.pl" />
-        <textarea placeholder="Wpisz wiadomość"></textarea>
-        <button type="submit">Wyślij</button>
-      </form>
+      <div id="content">
+        <h1>Skontaktuj się z nami</h1>
+        <!-- 
+        <form>
+            <input type="email" placeholder="twój@email.pl" />
+            <textarea placeholder="Wpisz wiadomość"></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+        -->
+        <div class="contact-form-root"></div>
+      </div>
     </main>
+    <div id="root"></div>
   </body>
 </html>

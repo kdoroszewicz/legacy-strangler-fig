@@ -5,6 +5,6 @@ $(document).ready(function () {
   });
 
   function loadPage(page) {
-    $("main").load(page + " main");
+    $("main").load(page + " #content");
   }
 });
